@@ -1,0 +1,12 @@
+package ai.clawphones.agent.ui.skills
+
+data class SkillInfo(
+    val name: String,
+    val description: String,
+    val version: String,
+    val emoji: String,
+    val triggers: List<String>,
+    val filePath: String,
+    val dirName: String,
+    val warnings: List<String> = emptyList(),
+)

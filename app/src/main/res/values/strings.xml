@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClawPhones</string>
+    <string name="notification_channel_name">ClawPhones Service</string>
+    <string name="notification_content">AI agent is running</string>
+</resources>

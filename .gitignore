@@ -1,0 +1,106 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+app/build/
+app/.cxx/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+.DS_Store
+.kotlin/
+
+# NDK
+obj/
+
+# Node.js mobile binaries (auto-downloaded by Gradle task)
+app/libnode/
+
+# Signing keys — NEVER commit these
+*.jks
+*.keystore
+*.pem
+*.p12
+signing.properties
+keystore.properties
+
+# dApp Store publishing — keypairs and local config
+publishing/node_modules/
+publishing/.cache/
+publishing/*.json
+!publishing/package.json
+publisher-keypair.json
+*-keypair.json
+
+# Firebase config (contains project-specific API keys)
+app/google-services.json
+
+# OpenClaw reference (tracked separately)
+openclaw-reference/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Agent/tooling configs
+.agent/
+.agents/
+.claude/
+.cline/
+.codex/
+.continue/
+.cursor/
+.gemini/
+.opencode/
+.windsurf/
+/skills/
+# Bundled agent skills must be tracked (extracted to device on first launch)
+!app/src/main/assets/nodejs-project/workspace/skills/
+
+# Build debug artifacts
+build_output.txt
+compile_out.txt
+
+# Developer-specific MCP config
+.mcp.json
+
+# Auto-generated CLAUDE.md (OpenClaw) — except root
+**/CLAUDE.md
+!/CLAUDE.md
+
+# Backend local artifacts
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/data/*.sqlite3
+backend/clawphones-new/
+
+# Screenshots & preview
+screenshots/
+ui-preview.html
